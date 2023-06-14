@@ -1,4 +1,4 @@
-html, body, div, span, applet, object, iframe,
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -50,4 +50,48 @@ table {
 /* Do not write a css rule above here! Use the space below  */
 
 
-/* Write your css below here */
+Write your css below here */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat", sans-serif;
+	position: relative;
+  }
+  .navbar{
+	position: fixed;
+	min-width: 100%;
+	background-color: #9EBC9E;
+	z-index: 2;
+  }
+  
+  .material-icons-outlined {
+	vertical-align: middle;
+	line-height: 1px;
+  }
+  
+  .navbar-brand > .material-icons-outlined {
+	font-size: 40px;
+  }
+  
+  .about > .material-icons-outlined {
+	font-size: 50px;
+  }
+  .card-text{
+	color: rgb(208, 176, 170);
+  }
+  .mb-3{
+	color: #0D6EFD;
+  }
+  .card > img {
+	height: 250px;
+  }
+  
+  .testimonial > img {
+	height: 50px;
+	width: 50px;
+  }
+  
+  #map {
+	height: 300px;
+	z-index: 1;
+  }
